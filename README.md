@@ -23,15 +23,13 @@ The goal is to assess how well a modern transformer-based model performs in chal
 ## Models used
 
 ### Face Detection & Alignment
-- **RetinaFace** (via `insightface`, Buffalo-L model pack)
+- **RetinaFace** (via [insightface](https://github.com/deepinsight/insightface), Buffalo-L model pack)
 - 5-point facial landmarks (eyes, nose, mouth corners)
 - Alignment using affine transformation to ArcFace standard (112×112)
 
 ### Face Recognition
 - **Vision Transformer (ViT)**
-- Pre-trained model:  
-  `vit_tiny_patch8_112.arcface_ms1mv3`
-- Trained on **MS1MV3** dataset
+- [Pre-trained model via Huggingface](https://huggingface.co/gaunernst/vit_tiny_patch8_112.arcface_ms1mv3)
 - Output: **512-dimensional L2-normalized embeddings**
 
 ---
@@ -88,6 +86,5 @@ Each probe image is compared against all gallery identities to generate genuine 
 
 ---
 
-## 👩‍🎓 Author
-
-**Alessia Infantino**  
+## 😼 Author
+[A. Infantino 1922069](https://github.com/alessiainf)
