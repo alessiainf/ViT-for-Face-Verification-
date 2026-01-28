@@ -28,8 +28,7 @@ The goal is to assess how well a modern transformer-based model performs in chal
 - Alignment using affine transformation to ArcFace standard (112×112)
 
 ### Face Recognition
-- **Vision Transformer (ViT)**
-- [Pre-trained model via Huggingface](https://huggingface.co/gaunernst/vit_tiny_patch8_112.arcface_ms1mv3)
+- **Vision Transformer (ViT)** [via Huggingface](https://huggingface.co/gaunernst/vit_tiny_patch8_112.arcface_ms1mv3)
 - Output: **512-dimensional L2-normalized embeddings**
 
 ---
