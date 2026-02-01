@@ -18,6 +18,7 @@ The system follows a classical **face verification pipeline**:
 
 The goal is to assess how well a modern transformer-based model performs in challenging biometric conditions.
 
+<img src="figures/pipeline.png" width="70%">
 ---
 
 ## Models used
@@ -51,6 +52,7 @@ The goal is to assess how well a modern transformer-based model performs in chal
   - Deepfake
   - Inter-personal (Look-alikes / similar identities)
 
+<img src="figures/attacks.png" width="70%">
 ---
 
 ## Evaluation Metrics
